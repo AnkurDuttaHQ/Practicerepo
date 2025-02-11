@@ -1,1 +1,1 @@
-This repo is basicaly is my practice projects based
+This repo is basicaly on my practice projects based
