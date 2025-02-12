@@ -1,0 +1,23 @@
+//Guessing Game
+
+let max = prompt("ENter the max number:");
+const random = Math.floor(Math.random()*max)+1;
+ 
+let guess = prompt("Guess the number:");
+
+while(true){
+    if(guess=="quit"){
+        alert("You are quitting the game");
+        break;
+    }
+    else if(guess==random){
+        console.log("Congrats!You guess right number & the number is",random);
+        break;
+    }
+    if(guess<random){
+        guess = prompt("Hint: Your guess is too small please enter big");
+    }
+    if(guess>random){
+        guess = prompt("Hint: Your guess is too big please enter small");
+    }
+}        
